@@ -19,15 +19,26 @@ body{
 #page{
 	/* The main container div */
 	width:620px;
-	margin:100px auto 0;
+	margin:200px auto 0;
 }
 
 h1{
-	padding-top:150px;
+/*	padding-top:150px;
 	text-align:center;
 	position:relative;
 	font-style:italic;
-	font-size:50px;
+	font-size:50px;*/
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top: 150px;
+	height:120px;
+	text-align: center;
+	background:url("img/panda.png") no-repeat center;
+	-webkit-background-size: cover;  
+  	-moz-background-size: cover;  
+  	-o-background-size: cover;  
+  	background-size: cover;  
+
 }
 
 #searchForm{
@@ -90,13 +101,12 @@ fieldset{
 #footer {
     text-align:center;
 	width: 800px;
-	padding: 150px 10px 10px;  
+	padding: 180px 10px 10px;  
 	margin: 0 auto;
 }
 a, a:link, a:visited { 
 	color: #29b2c2; 
 	text-decoration: none; 
-	font-style: italic; 
 }
 a:hover { 
 	text-decoration: underline; 
