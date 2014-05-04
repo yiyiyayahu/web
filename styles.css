@@ -6,7 +6,7 @@
 body{
 	font-size:15px;
 	color:#eee;
-	font-family:Book Antiqua, sans-serif， Georgia，Helvetica，Corbel,'Myriad Pro',Arial;
+	font-family:'Times', Book Antiqua, sans-serif， Georgia，Helvetica，Corbel,'Myriad Pro',Arial;
 	background: url(img/blue.png) no-repeat center center fixed;   
   	-webkit-background-size: cover;  
   	-moz-background-size: cover;  
@@ -43,7 +43,7 @@ h1{
 
 #searchForm{
 	/* The search form. */
-	padding:0px 50px 30px;
+	padding:0px 30px 30px 50px;
 	margin:80px 0;
 	position:relative;
 
@@ -76,7 +76,8 @@ fieldset{
 	font-size:15px;
 	height:36px;
 	line-height:36px;
-	margin-right:12px;
+	margin-left:14px;
+	margin-right:6px;
 	outline:medium none;
 	padding:0 0 0 35px;
 	text-shadow:1px 1px 0 white;
