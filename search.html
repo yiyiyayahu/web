@@ -3,25 +3,35 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Panda Search Demo</title>
+		<link href='dist/css/bootstrap.min.css' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+
 	</head>
 
 	<body>
 
 		<div id="page">
 		    <h1>PanDa Search</h1>
-			    <form id="searchForm" method="post">
+<!-- 			    <form id="searchForm" method="post">
 					<fieldset>        
 			           	<input id="s" type="text" />            
-			            <input type="submit" value="Submit" id="submitButton" />           
+			            <input type="submit" value="Submit" id="submitButton" />
 			        </fieldset>
-			    </form>		
+			    </form>		 -->
  
+        <form id="searchForm" action='query' method='post'> 
+       		<div class='col-sm-11 input-group'>
+          	<span class='input-group-btn search-form'>
+            	<input type='text' name='query' class='form-control'>
+            	<button class='btn btn-default' type='submit'>Search</button>
+          	</span>
+          </div>
+        </form>
 		</div>
 
 		<div id="footer">
 		    <div>
-		        Copyright © 2014 <a href="#">Search</a> | by <a>PanDa Group: Fangyuan Chen, Shengda Ding, Yuanjie Qu, Xinyu Zhao</a>
+		        Copyright © 2014 <a>Search</a> | by <a>PanDa Group: Fangyuan Chen, Shengda Ding, Yuanjie Qu, Xinyu Zhao</a>
 		    </div>
 		</div>
 	</body>

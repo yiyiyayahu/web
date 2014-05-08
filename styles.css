@@ -6,8 +6,10 @@
 body{
 	font-size:15px;
 	color:#eee;
-	font-family:'Times', Book Antiqua, sans-serif， Georgia，Helvetica，Corbel,'Myriad Pro',Arial;
-	background: url(img/blue.png) no-repeat center center fixed;   
+	font-family: Georgia, 'Book Antiqua', sans-serif， Georgia，Helvetica，Corbel,'Myriad Pro',Arial;
+/*	background-color: rgb(94,185,232);*/
+	background: url("img/bamboo.jpg") no-repeat center center fixed;   
+	
   	-webkit-background-size: cover;  
   	-moz-background-size: cover;  
   	-o-background-size: cover;  
@@ -23,11 +25,6 @@ body{
 }
 
 h1{
-/*	padding-top:150px;
-	text-align:center;
-	position:relative;
-	font-style:italic;
-	font-size:50px;*/
 	text-indent:-9999px;
 	overflow:hidden;
 	margin-top: 150px;
@@ -46,7 +43,6 @@ h1{
 	padding:0px 30px 30px 50px;
 	margin:80px 0;
 	position:relative;
-
 	-moz-border-radius:16px;
 	-webkit-border-radius:16px;
 	border-radius:16px;
@@ -58,7 +54,7 @@ fieldset{
 
 #searchInputContainer{
 	/* This div contains the transparent search box */
-	width:420px;
+	width:550px;
 	height:36px;
 	background:url("img/searchBox.png") no-repeat;
 	float:left;
@@ -74,14 +70,20 @@ fieldset{
 	float:left;
 	font-family:Book Antiqua, Arial,Helvetica,sans-serif;
 	font-size:15px;
-	height:36px;
+	height:40px;
 	line-height:36px;
-	margin-left:14px;
-	margin-right:6px;
+	margin-left:35px;
+	margin-right:2px;
+
 	outline:medium none;
 	padding:0 0 0 35px;
 	text-shadow:1px 1px 0 white;
-	width:385px;
+/*	width:385px;*/
+	-webkit-background-size: cover;  
+  	-moz-background-size: cover;  
+  	-o-background-size: cover;  
+  	background-size: cover;  
+	width:460px;
 }
 
 #submitButton{
@@ -106,7 +108,8 @@ fieldset{
 	margin: 0 auto;
 }
 a, a:link, a:visited { 
-	color: #29b2c2; 
+	/*color: #888888; */
+	/*color:#727A7F;*/
 	text-decoration: none; 
 }
 a:hover { 

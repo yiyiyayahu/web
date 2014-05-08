@@ -37,23 +37,30 @@ h6, .h6 {
  */
 
 .search-masthead {
-  background: url(img/blue.png);
-  height:100px;
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  background: url("img/bamboo.jpg");
+  height:120px;
+/*  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);*/
 }
 
 .nav-title {
-  position: relative;
+/*  position: relative;
   display: inline-block;
   margin-top: 10px;
   font-weight: 600;
   font-style: italic;
-  color: #eee;
+  color: #eee;*/
+  text-indent:-9999px;
+  overflow:hidden;
+  height:60px;
+  background:url("img/panda.png") no-repeat;
+/*  -webkit-background-size: cover;  
+  -moz-background-size: cover;  
+  -o-background-size: cover; */ 
+  background-size: 30%;  
 }
 
 .search-form {
   position: relative;
-
 }
 
 /*
@@ -128,6 +135,7 @@ h6, .h6 {
 }
 .search-result-meta {
   margin-bottom: 10px;
+  font-size:12px;
   color: #999;
 }
 
